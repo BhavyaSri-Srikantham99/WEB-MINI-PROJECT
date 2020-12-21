@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: linear-gradient(90deg,#0162c8,#55e7fc);
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    min-height: 100vh;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.container{ 
+    text-align: center;
+    justify-content: center;
+    min-height: 125px;
+    width: 600px;
+    margin: 150px;
+    background: linear-gradient(900eg,#fff,#ff72c0);
+    box-shadow: 0 0 100px 50px #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+.container button{
+    font-size: 15px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid;
+    padding: 10px 30px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.6 ease; 
+}
+.container button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.form{
+    margin: 30px;
+    box-sizing: border-box;
+}
+.user input{
+width: 400px;
+height:30px;
+margin-top: 5%;
+border: none;
+background: transparent;
+border-bottom: 3px solid#fff;
+font-size: 20px;
+}
+.username input{
+    width: 400px;
+height:30px;
+margin-top: 5%;
+border: none;
+background: transparent;
+border-bottom: 3px solid#fff;
+font-size: 20px;
+}
+.us input{
+    width: 400px;
+    height:30px;
+    margin-top: 3%;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid#fff;
+    font-size: 20px;
+}
+.usr input{
+    width: 400px;
+    height:30px;
+    margin-top: 3%;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid#fff;
+    font-size: 20px;
+}
+textarea{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(180deg,#5bea,#ffc0);
+    box-shadow: 0 0 20px 4px #303030;
+    resize: none;
+    margin-top: 3%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+
+}
+textarea::placeholder{
+    color: #222;
+}
